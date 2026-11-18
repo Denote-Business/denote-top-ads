@@ -1,18 +1,29 @@
 # Denote Top Ads
 
-Find winning ad creatives to study before your next campaign. Denote tracks **10 million+ ads** and refreshes its rankings every week. Ask your agent for game or app ads and get three shortlists from the latest completed week, with up to 10 creatives on each. [Explore Denote Top Ads](https://denote.net/top-ads).
+EN · [ZH](README.zh.md) · [JA](README.ja.md) · [KO](README.ko.md) · [ES](README.es.md) · [NL](README.nl.md) · [DE](README.de.md) · [FR](README.fr.md)
 
-| Free chart | When to use it |
+Find winning ads to study for your next campaign. Denote tracks more than 10 million ads and updates its rankings every week. A free account gives you three charts for games or apps from the last completed week, with up to ten creatives per chart. [Explore Denote Top Ads](https://denote.net/top-ads).
+
+| Free chart | What it shows |
 | --- | --- |
-| Trending Ads | See which creatives drew the most attention last week. Bring a few references to your next creative review. |
-| Rising Ads | Spot ads with the biggest week-over-week gain in popularity. Find a creative direction while it is picking up speed. |
-| New Ads | Discover newly spotted creatives ranked by early popularity. Bring fresh examples to your next brainstorm. |
+| Trending Ads | See which creatives drew the most attention last week. |
+| Rising Ads | Find creatives with the biggest week-over-week gain in popularity. |
+| New Ads | Discover newly spotted creatives ranked by early popularity. |
 
-## Get your first three charts
+## Get your first report
 
-1. Install the skill. In an OpenClaw workspace, run `git clone https://github.com/Denote-Business/denote-top-ads.git skills/denote-top-ads`. The client uses Python 3.
-2. Start a new agent session and say **“Open Denote Top Ads.”** The skill introduces the three charts and walks you through connecting your account.
-3. [Register for a free Denote account](https://denote.net/user/register), or sign in if you already have one. Create a Denote API Key with the `top_ads:read` permission, or add that permission to an existing key.
-4. Save the key in your agent host's secret settings as `DENOTE_API_KEY`. Tell your agent **“My key is ready. Show me last week's winning app ads.”**
+Run this command in your OpenClaw workspace. The skill requires Python 3.
 
-Your free account gets all three charts. Each result includes the rank and available title, advertiser, format, platforms and preview. The first report defaults to games if you leave the category open. For a closer look, ask “Open number two on Rising Ads.” Ranked creative details, including available performance and audience data, require Top Ads Pro or Business.
+```sh
+git clone https://github.com/Denote-Business/denote-top-ads.git skills/denote-top-ads
+```
+
+1. Start a new session and ask “What can Denote Top Ads help me find?”
+2. [Create a free Denote account](https://denote.net/user/register). Already registered? Sign in. Create a Denote API key with the `top_ads:read` permission or add it to an existing key.
+3. Save the key as `DENOTE_API_KEY` in your agent host’s secret settings. Then ask “Show me last week’s top app ads.” Your agent will fetch all three charts. Games are the default when you leave the category open.
+
+**Rank · Ad title · Advertiser · Format · Platforms · Preview**
+
+## A closer look
+
+Ask “Open the second ad on the rising chart.” Top Ads Pro or Business includes available creative details such as performance and audience. All three weekly charts are free.

@@ -4,11 +4,27 @@
 
 Finde Anzeigen, die dir als Vorlage für deine nächste Kampagne dienen können. Denote erfasst mehr als 10 Millionen Anzeigen und aktualisiert die Ranglisten jede Woche. Mit einem kostenlosen Konto erhältst du für die letzte abgeschlossene Woche drei Ranglisten für Spiele oder Apps mit jeweils bis zu zehn Anzeigen. [Denote Top Ads entdecken](https://denote.net/top-ads).
 
+![Über die linke Seitenleiste lassen sich alle drei Wochenranglisten öffnen.](assets/screenshots/top-ads-navigation.jpg)
+
+*Über die linke Seitenleiste lassen sich alle drei Wochenranglisten öffnen.*
+
 | Kostenlose Rangliste | Was du darin findest |
 | --- | --- |
 | Beliebte Anzeigen | Anzeigen, die in der vergangenen Woche besonders viel Aufmerksamkeit erhielten. |
 | Aufsteiger | Anzeigen, deren Beliebtheit gegenüber der Vorwoche am stärksten zunahm. |
 | Neue Anzeigen | Erstmals erfasste Anzeigen, sortiert nach ihrer anfänglichen Beliebtheit. |
+
+![Beliebte Spieleanzeigen vom 9. bis 15. November 2026, sortiert nach ihrer Beliebtheit in dieser Woche.](assets/screenshots/trending-ads.jpg)
+
+*Beliebte Spieleanzeigen vom 9. bis 15. November 2026, sortiert nach ihrer Beliebtheit in dieser Woche.*
+
+![Spieleanzeigen mit dem größten Zuwachs an Beliebtheit gegenüber der Vorwoche.](assets/screenshots/rising-ads.jpg)
+
+*Spieleanzeigen mit dem größten Zuwachs an Beliebtheit gegenüber der Vorwoche.*
+
+![Neu erfasste Spieleanzeigen, sortiert nach ihrer anfänglichen Beliebtheit.](assets/screenshots/new-ads.jpg)
+
+*Neu erfasste Spieleanzeigen, sortiert nach ihrer anfänglichen Beliebtheit.*
 
 ## Deinen ersten Wochenüberblick abrufen
 
@@ -27,3 +43,19 @@ git clone https://github.com/Denote-Business/denote-top-ads.git skills/denote-to
 ## Eine Anzeige im Detail ansehen
 
 Frage zum Beispiel: „Öffne den zweiten Platz der Aufsteiger.“ Mit Top Ads Pro oder Business kannst du verfügbare Daten zur Anzeigenleistung und Zielgruppe ansehen. Alle drei Wochenranglisten sind kostenlos.
+
+![Überblick zur Anzeige von Vita Mahjong mit Format und geschätzten Impressionen.](assets/screenshots/overview.jpg)
+
+*Überblick zur Anzeige von Vita Mahjong mit Format und geschätzten Impressionen.*
+
+![Täglicher Anzeigenwert von Vita Mahjong im Vergleich zu den Referenzlinien.](assets/screenshots/data-trend.jpg)
+
+*Täglicher Anzeigenwert von Vita Mahjong im Vergleich zu den Referenzlinien.*
+
+![Weitere Anzeigen mit demselben Motiv, den jeweiligen Werbetreibenden und der Laufzeit.](assets/screenshots/related-ads.jpg)
+
+*Weitere Anzeigen mit demselben Motiv, den jeweiligen Werbetreibenden und der Laufzeit.*
+
+![Reichweite von Vita Mahjong nach Land, Alter und Geschlecht.](assets/screenshots/audience.jpg)
+
+*Reichweite von Vita Mahjong nach Land, Alter und Geschlecht.*

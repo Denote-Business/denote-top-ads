@@ -4,11 +4,27 @@
 
 Repérez des créations publicitaires à étudier pour votre prochaine campagne. Denote suit plus de 10 millions de publicités et actualise ses classements chaque semaine. Avec un compte gratuit, consultez trois classements de jeux ou d’applications pour la dernière semaine complète, avec jusqu’à dix publicités par classement. [Découvrir Denote Top Ads](https://denote.net/top-ads).
 
+![Accédez aux trois classements hebdomadaires depuis le menu latéral.](assets/screenshots/top-ads-navigation.jpg)
+
+*Accédez aux trois classements hebdomadaires depuis le menu latéral.*
+
 | Classement gratuit | Ce que vous y trouverez |
 | --- | --- |
 | Publicités populaires | Les créations qui ont suscité le plus d’intérêt la semaine dernière. |
 | Publicités en progression | Celles dont la popularité a le plus augmenté par rapport à la semaine précédente. |
 | Nouvelles publicités | Les créations repérées pour la première fois, classées selon leur popularité initiale. |
+
+![Publicités de jeux les plus populaires du 9 au 15 novembre 2026, par popularité hebdomadaire.](assets/screenshots/trending-ads.jpg)
+
+*Publicités de jeux les plus populaires du 9 au 15 novembre 2026, par popularité hebdomadaire.*
+
+![Publicités de jeux dont la popularité a le plus progressé par rapport à la semaine précédente.](assets/screenshots/rising-ads.jpg)
+
+*Publicités de jeux dont la popularité a le plus progressé par rapport à la semaine précédente.*
+
+![Publicités de jeux nouvellement repérées, classées selon leur popularité initiale.](assets/screenshots/new-ads.jpg)
+
+*Publicités de jeux nouvellement repérées, classées selon leur popularité initiale.*
 
 ## Obtenir vos premiers classements
 
@@ -27,3 +43,19 @@ git clone https://github.com/Denote-Business/denote-top-ads.git skills/denote-to
 ## Examiner une publicité en détail
 
 Essayez « Ouvre la deuxième publicité en progression ». Avec Top Ads Pro ou Business, vous pouvez consulter les données disponibles sur les performances et l’audience. Les trois classements hebdomadaires sont gratuits.
+
+![Vue d’ensemble de la création Vita Mahjong, avec son format et ses impressions estimées.](assets/screenshots/overview.jpg)
+
+*Vue d’ensemble de la création Vita Mahjong, avec son format et ses impressions estimées.*
+
+![Évolution du score quotidien de Vita Mahjong par rapport aux courbes de référence.](assets/screenshots/data-trend.jpg)
+
+*Évolution du score quotidien de Vita Mahjong par rapport aux courbes de référence.*
+
+![Publicités utilisant la même création, avec leurs annonceurs et leurs dates de diffusion.](assets/screenshots/related-ads.jpg)
+
+*Publicités utilisant la même création, avec leurs annonceurs et leurs dates de diffusion.*
+
+![Couverture de Vita Mahjong par pays, âge et genre.](assets/screenshots/audience.jpg)
+
+*Couverture de Vita Mahjong par pays, âge et genre.*

@@ -4,11 +4,27 @@ EN · [ZH](README.zh.md) · [JA](README.ja.md) · [KO](README.ko.md) · [ES](REA
 
 Find winning ads to study for your next campaign. Denote tracks more than 10 million ads and updates its rankings every week. A free account gives you three charts for games or apps from the last completed week, with up to ten creatives per chart. [Explore Denote Top Ads](https://denote.net/top-ads).
 
+![Open the three weekly charts from the Top Ads sidebar.](assets/screenshots/top-ads-navigation.jpg)
+
+*Open the three weekly charts from the Top Ads sidebar.*
+
 | Free chart | What it shows |
 | --- | --- |
 | Trending Ads | See which creatives drew the most attention last week. |
 | Rising Ads | Find creatives with the biggest week-over-week gain in popularity. |
 | New Ads | Discover newly spotted creatives ranked by early popularity. |
+
+![Trending ads in games for November 9–15, 2026, ranked by weekly popularity.](assets/screenshots/trending-ads.jpg)
+
+*Trending ads in games for November 9–15, 2026, ranked by weekly popularity.*
+
+![Rising game ads with the largest week-over-week gains in popularity.](assets/screenshots/rising-ads.jpg)
+
+*Rising game ads with the largest week-over-week gains in popularity.*
+
+![Newly spotted game ads ranked by early popularity.](assets/screenshots/new-ads.jpg)
+
+*Newly spotted game ads ranked by early popularity.*
 
 ## Get your first report
 
@@ -27,3 +43,19 @@ git clone https://github.com/Denote-Business/denote-top-ads.git skills/denote-to
 ## A closer look
 
 Ask “Open the second ad on the rising chart.” Top Ads Pro or Business includes available creative details such as performance and audience. All three weekly charts are free.
+
+![Overview of the Vita Mahjong creative, including its format and estimated impressions.](assets/screenshots/overview.jpg)
+
+*Overview of the Vita Mahjong creative, including its format and estimated impressions.*
+
+![Daily creative score for Vita Mahjong alongside reference lines.](assets/screenshots/data-trend.jpg)
+
+*Daily creative score for Vita Mahjong alongside reference lines.*
+
+![Other ads using the Vita Mahjong creative, with advertiser and run dates.](assets/screenshots/related-ads.jpg)
+
+*Other ads using the Vita Mahjong creative, with advertiser and run dates.*
+
+![Vita Mahjong audience reach by country, age and gender.](assets/screenshots/audience.jpg)
+
+*Vita Mahjong audience reach by country, age and gender.*

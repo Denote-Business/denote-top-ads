@@ -4,7 +4,7 @@
 
 다음 캠페인에 참고할 광고를 찾아보세요. Denote는 광고 1,000만 건 이상을 추적하고 매주 순위를 갱신합니다. 무료 계정으로 지난 한 주 동안의 게임 또는 앱 광고를 세 가지 순위표에서 각각 최대 10개까지 확인할 수 있습니다. [Denote 광고 순위 살펴보기](https://denote.net/top-ads).
 
-![왼쪽 메뉴에서 세 가지 주간 광고 순위표를 열 수 있습니다.](assets/screenshots/top-ads-navigation.jpg)
+![왼쪽 메뉴에서 세 가지 주간 광고 순위표를 열 수 있습니다.](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/top-ads-navigation.jpg)
 
 *왼쪽 메뉴에서 세 가지 주간 광고 순위표를 열 수 있습니다.*
 
@@ -14,15 +14,15 @@
 | 급상승 광고 | 전주보다 인기도가 가장 크게 오른 광고를 찾아보세요. |
 | 신규 광고 | 새로 발견된 광고를 초기 인기도 순으로 살펴보세요. |
 
-![인기 광고: 2026년 11월 9일부터 15일까지의 게임 광고를 주간 인기도순으로 보여 줍니다.](assets/screenshots/trending-ads.jpg)
+![인기 광고: 2026년 11월 9일부터 15일까지의 게임 광고를 주간 인기도순으로 보여 줍니다.](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/trending-ads.jpg)
 
 *인기 광고: 2026년 11월 9일부터 15일까지의 게임 광고를 주간 인기도순으로 보여 줍니다.*
 
-![급상승 광고: 전주보다 인기도가 가장 크게 오른 게임 광고입니다.](assets/screenshots/rising-ads.jpg)
+![급상승 광고: 전주보다 인기도가 가장 크게 오른 게임 광고입니다.](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/rising-ads.jpg)
 
 *급상승 광고: 전주보다 인기도가 가장 크게 오른 게임 광고입니다.*
 
-![신규 광고: 새로 발견된 게임 광고를 초기 인기도순으로 보여 줍니다.](assets/screenshots/new-ads.jpg)
+![신규 광고: 새로 발견된 게임 광고를 초기 인기도순으로 보여 줍니다.](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/new-ads.jpg)
 
 *신규 광고: 새로 발견된 게임 광고를 초기 인기도순으로 보여 줍니다.*
 
@@ -44,18 +44,18 @@ git clone https://github.com/Denote-Business/denote-top-ads.git skills/denote-to
 
 “급상승 광고 2위를 자세히 보여 줘”라고 요청해 보세요. Top Ads Pro 또는 Business 계정에서는 제공 가능한 광고 성과와 잠재고객 정보도 확인할 수 있습니다. 세 가지 주간 순위표는 무료입니다.
 
-![개요: Vita Mahjong 광고의 형식과 예상 노출 수를 확인할 수 있습니다.](assets/screenshots/overview.jpg)
+![개요: Vita Mahjong 광고의 형식과 예상 노출 수를 확인할 수 있습니다.](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/overview.jpg)
 
 *개요: Vita Mahjong 광고의 형식과 예상 노출 수를 확인할 수 있습니다.*
 
-![데이터 추이: Vita Mahjong의 일별 광고 점수를 기준선과 비교할 수 있습니다.](assets/screenshots/data-trend.jpg)
+![데이터 추이: Vita Mahjong의 일별 광고 점수를 기준선과 비교할 수 있습니다.](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/data-trend.jpg)
 
 *데이터 추이: Vita Mahjong의 일별 광고 점수를 기준선과 비교할 수 있습니다.*
 
-![관련 광고: 같은 소재를 사용한 광고주와 집행 기간을 비교할 수 있습니다.](assets/screenshots/related-ads.jpg)
+![관련 광고: 같은 소재를 사용한 광고주와 집행 기간을 비교할 수 있습니다.](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/related-ads.jpg)
 
 *관련 광고: 같은 소재를 사용한 광고주와 집행 기간을 비교할 수 있습니다.*
 
-![잠재고객: 국가 및 지역, 연령, 성별에 따른 도달 규모를 확인할 수 있습니다.](assets/screenshots/audience.jpg)
+![잠재고객: 국가 및 지역, 연령, 성별에 따른 도달 규모를 확인할 수 있습니다.](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/audience.jpg)
 
 *잠재고객: 국가 및 지역, 연령, 성별에 따른 도달 규모를 확인할 수 있습니다.*

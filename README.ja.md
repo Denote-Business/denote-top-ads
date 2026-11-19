@@ -4,7 +4,7 @@
 
 次のキャンペーンに向けて、参考になる広告を探しましょう。Denote は1,000万件を超える広告を追跡し、ランキングを毎週更新しています。無料アカウントで、直近の終了週におけるゲームまたはアプリの広告を、3つのランキングで各10件まで確認できます。 [Denote の広告ランキングを見る](https://denote.net/top-ads)。
 
-![左側のナビゲーションから3つの週間ランキングを開けます。](assets/screenshots/top-ads-navigation.jpg)
+![左側のナビゲーションから3つの週間ランキングを開けます。](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/top-ads-navigation.jpg)
 
 *左側のナビゲーションから3つの週間ランキングを開けます。*
 
@@ -14,15 +14,15 @@
 | 急上昇広告 | 前週と比べて人気の伸び幅が大きかった広告を見つけられます。 |
 | 新着広告 | 新たに観測された広告を、初期の人気順に確認できます。 |
 
-![人気広告：2026年11月9日から15日のゲーム広告を週間人気順に表示します。](assets/screenshots/trending-ads.jpg)
+![人気広告：2026年11月9日から15日のゲーム広告を週間人気順に表示します。](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/trending-ads.jpg)
 
 *人気広告：2026年11月9日から15日のゲーム広告を週間人気順に表示します。*
 
-![急上昇広告：前週と比べて人気の伸び幅が大きいゲーム広告です。](assets/screenshots/rising-ads.jpg)
+![急上昇広告：前週と比べて人気の伸び幅が大きいゲーム広告です。](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/rising-ads.jpg)
 
 *急上昇広告：前週と比べて人気の伸び幅が大きいゲーム広告です。*
 
-![新着広告：新たに観測されたゲーム広告を初期の人気順に表示します。](assets/screenshots/new-ads.jpg)
+![新着広告：新たに観測されたゲーム広告を初期の人気順に表示します。](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/new-ads.jpg)
 
 *新着広告：新たに観測されたゲーム広告を初期の人気順に表示します。*
 
@@ -44,18 +44,18 @@ git clone https://github.com/Denote-Business/denote-top-ads.git skills/denote-to
 
 「急上昇広告の2位を詳しく見せて」と聞いてみてください。Top Ads Pro または Business では、広告の実績やオーディエンスなど、取得可能な詳細を確認できます。3つの週間ランキングは無料です。
 
-![概要：Vita Mahjong の広告形式や推定表示回数を確認できます。](assets/screenshots/overview.jpg)
+![概要：Vita Mahjong の広告形式や推定表示回数を確認できます。](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/overview.jpg)
 
 *概要：Vita Mahjong の広告形式や推定表示回数を確認できます。*
 
-![推移：Vita Mahjong の日別スコアを基準線と比較できます。](assets/screenshots/data-trend.jpg)
+![推移：Vita Mahjong の日別スコアを基準線と比較できます。](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/data-trend.jpg)
 
 *推移：Vita Mahjong の日別スコアを基準線と比較できます。*
 
-![関連広告：同じ素材を使用する広告主や配信期間を比較できます。](assets/screenshots/related-ads.jpg)
+![関連広告：同じ素材を使用する広告主や配信期間を比較できます。](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/related-ads.jpg)
 
 *関連広告：同じ素材を使用する広告主や配信期間を比較できます。*
 
-![オーディエンス：国・地域、年齢、性別ごとのリーチを確認できます。](assets/screenshots/audience.jpg)
+![オーディエンス：国・地域、年齢、性別ごとのリーチを確認できます。](https://cdn.denote.net/denote/static/source/denote-top-ads/assets/screenshots/audience.jpg)
 
 *オーディエンス：国・地域、年齢、性別ごとのリーチを確認できます。*

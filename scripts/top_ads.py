@@ -6,7 +6,7 @@ import json
 import os
 import sys
 from urllib.error import HTTPError, URLError
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlsplit
 from urllib.request import HTTPRedirectHandler, Request, build_opener
 
 ORIGINS = {'production': 'https://denote.net', 'development': 'https://dev.denote.net'}
@@ -21,6 +21,27 @@ class NoRedirect(HTTPRedirectHandler):
         return None
 
 
+def media_destination(value):
+    """Keep API URLs intact, including signed queries, in Markdown destinations."""
+    if not isinstance(value, str) or any(c.isspace() or c in '<>\\' or not c.isprintable() for c in value):
+        return None
+    try:
+        url = urlsplit(value)
+        if url.scheme in ('http', 'https') and url.hostname and url.username is None:
+            return '<' + value + '>'
+    except ValueError:
+        pass
+    return None
+
+
+def creative_media(preview_url, video_url=None):
+    preview = media_destination(preview_url)
+    video = media_destination(video_url)
+    if preview:
+        return f'[![]({preview})]({video or preview})'
+    return video
+
+
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--environment', choices=ORIGINS, default='production')
@@ -29,6 +50,8 @@ def main(argv=None) -> int:
     detail = commands.add_parser('detail', help='Read detail for one ranked creative')
     for command in (rankings, detail):
         command.add_argument('--app-type', choices=('game', 'app'), default='game')
+        command.add_argument('--with-media', action='store_true',
+                             help='Include embeddable creative media for the report')
     detail.add_argument('--chart', choices=('trending', 'rising', 'new'), required=True)
     detail.add_argument('--creative-key', required=True)
     detail.add_argument('--week-start', required=True)
@@ -59,6 +82,16 @@ def main(argv=None) -> int:
     except (URLError, OSError, ValueError):
         print('Could not read the Denote Top Ads API.', file=sys.stderr)
         return 1
+    if args.with_media:
+        result = data['data']
+        if args.command == 'rankings':
+            for chart in result['charts'].values():
+                for item in chart['items']:
+                    item['media_markdown'] = creative_media(item.get('preview_image_url'))
+        else:
+            creative = result.get('basic', {}).get('creative', {})
+            result['media_markdown'] = creative_media(creative.get('preview_img_url'),
+                                                     creative.get('video_url'))
     print(json.dumps(data, ensure_ascii=False))
     return 0
 
